@@ -13887,8 +13887,8 @@ ul a.rsswidget {
   .icon-bx-sm img {
     vertical-align: middle;
     max-width: 100%;
-    width: auto;
-    height: 30px; }
+    width: 70px;
+    padding-top: 5px;}
 
 .icon-bx-xs {
   display: inline-block;
@@ -14208,8 +14208,7 @@ ul a.rsswidget {
   .icon-bx-wraper.style-2 .icon-bx {
     font-size: 30px;
     border-radius: 8px;
-    width: 60px;
-    height: 60px;
+    width: 80px;
     min-width: 60px;
     line-height: 60px;
     margin-top: 8px;
