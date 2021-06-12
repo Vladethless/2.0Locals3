@@ -11082,7 +11082,8 @@ button:focus {
 .overlay-white-light:before,
 .overlay-white-middle:before,
 .overlay-white-dark:before {
-  background: #FFF; }
+  /* background: #FFF;  */
+}
 
 .overlay-primary-light:before,
 .overlay-primary-middle:before,
