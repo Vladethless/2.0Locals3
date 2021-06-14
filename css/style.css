@@ -8656,6 +8656,12 @@ strong,
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width:600px){
+.row-flaticons{
+  flex-direction: column;
+}
+}
+
 
 @media only screen and (max-width: 991px) {
   .dz-order-1 {
@@ -17922,7 +17928,7 @@ pre {
 
   .dz-bnr-inr-entry h1{
     color: #fafafa;
-    -webkit-text-stroke: 3px #4b4646;
+    -webkit-text-stroke: 1.5px #4b4646;
   }
   .dz-bnr-inr .dz-bnr-inr-entry {
     height: 400px;
