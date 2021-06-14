@@ -14798,7 +14798,7 @@ ul a.rsswidget {
       overflow: hidden;
       position: absolute;
       right: 0;
-      bottom: 30px;
+      bottom: 45px;
       width: 45%;
       filter: drop-shadow(115px 45px 0px var(--primary));
       animation: dzMove1 12s linear infinite; }
