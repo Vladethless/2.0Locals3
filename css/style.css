@@ -8651,6 +8651,11 @@ strong,
 /* Flaticon */
 [class*="flaticon-"] {
   font-family: "Flaticon"; }
+.row-flaticons{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 991px) {
   .dz-order-1 {
@@ -12290,17 +12295,22 @@ ul.grid-2 {
 
 .video-bx {
   position: relative; }
+  #main_pic{
+    border-bottom-left-radius: 100px;
+  }
   .video-bx.style-1 {
     position: relative;
     max-width: 970px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 40px -40px 0 0 var(--primary);
-    margin-top: 40px; }
+    margin-top: 40px;
+     }
     @media only screen and (max-width: 575px) {
       .video-bx.style-1 {
         box-shadow: 10px -10px 0 0 var(--primary);
-        margin-top: 10px; } }
+        margin-top: 10px;
+         } }
     .video-bx.style-1 .video-btn {
       position: absolute;
       top: 50%;
@@ -14287,7 +14297,8 @@ ul a.rsswidget {
   overflow: hidden;
   -webkit-transition: all 0.8s;
   -ms-transition: all 0.8s;
-  transition: all 0.8s; }
+  transition: all 0.8s;
+  margin: 15px; }
   .icon-bx-wraper.style-8 p {
     font-size: 18px; }
   .icon-bx-wraper.style-8:after {
@@ -17908,6 +17919,11 @@ pre {
   .dz-bnr-inr .container {
     display: table;
     height: 100%; }
+
+  .dz-bnr-inr-entry h1{
+    color: #fafafa;
+    -webkit-text-stroke: 3px #4b4646;
+  }
   .dz-bnr-inr .dz-bnr-inr-entry {
     height: 400px;
     vertical-align: middle;
@@ -17989,7 +18005,7 @@ pre {
     justify-content: center; }
     .dz-bnr-inr.style-1 .breadcrumb-row ul li {
       position: relative;
-      color: #212529;
+      color: #ffffff;
       text-transform: capitalize;
       font-size: 18px;
       font-weight: 500;
@@ -18002,7 +18018,7 @@ pre {
           padding-left: 10px;
           padding-right: 10px; } }
       .dz-bnr-inr.style-1 .breadcrumb-row ul li a {
-        color: #212529; }
+        color: #ffffff; }
       .dz-bnr-inr.style-1 .breadcrumb-row ul li::before {
         content: "";
         height: 8px;
