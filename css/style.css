@@ -152,7 +152,11 @@ address {
 ol,
 ul {
   padding-left: 2rem; }
-
+ul li p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff1d4d;
+}
 ol,
 ul,
 dl {
@@ -14218,7 +14222,7 @@ ul a.rsswidget {
     margin-bottom: 0; }
 .icon-bx-wraper.style-2 {
   margin-bottom: 30px;
-  padding: 0 30px; }
+  padding: 0 15px; }
   @media only screen and (max-width: 1280px) {
     .icon-bx-wraper.style-2 {
       padding: 0; } }
@@ -15759,8 +15763,10 @@ pre {
   background: #212529;
   left: -0.938rem;
   position: absolute;
-  top: 1.063rem;
-  border-radius: 4px; }
+  top: 0.8rem;
+  border-radius: 4px; 
+  
+}
 
 .dz-page-text ul > li li:before,
 .dz-page-text ol > li li:before,
@@ -15770,7 +15776,8 @@ pre {
 
 .dz-page-text p,
 .dz-card.blog-single .dz-post-text p {
-  margin-bottom: 1.65rem; }
+  margin-bottom: 0.5rem;
+  margin-top: 1rem; }
 
 .paginate-links {
   display: flex;
@@ -17928,7 +17935,8 @@ pre {
 
   .dz-bnr-inr-entry h1{
     color: #fafafa;
-    -webkit-text-stroke: 1.5px #4b4646;
+    -webkit-text-stroke:3px var(--rgba-primary-4);
+    letter-spacing: 2px;
   }
   .dz-bnr-inr .dz-bnr-inr-entry {
     height: 400px;
@@ -17947,7 +17955,7 @@ pre {
         height: 230px; } }
   .dz-bnr-inr h1, .dz-bnr-inr .h1 {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 10px;
     text-transform: capitalize;
     line-height: 1.1; }
